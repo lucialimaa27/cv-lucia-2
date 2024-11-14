@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'Faculty Glyphic';
+    src: url('Faculty_Glyphic/Faculty-Glyphic-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Faculty Glyphic', sans-serif;
+    background-color: #080808;
+    color: #f3eeee;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+fieldset {
+    border: 1px solid #f7f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    
+}
+
+
+ul {
+    color: #ccc;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+}
